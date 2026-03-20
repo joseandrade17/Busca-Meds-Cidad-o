@@ -73,9 +73,13 @@ input:focus {
 /* BOTÕES */
 .btn-group {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row; /* 🔥 muda aqui */
+  gap: 10px;
   margin-bottom: 25px;
+}
+.btn-group button {
+  flex: 1;
+  min-width: 90px;
 }
 
 button {
@@ -93,15 +97,6 @@ button:hover {
   background: #16a34a;
 }
 
-@media (min-width: 600px) {
-  .btn-group {
-   flex-direction: column;
-    text-align: center;
-  }
-  button {
-    flex: 1;
-  }
-}
 
 /* RESULTADO */
 .resultado {
