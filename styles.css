@@ -34,7 +34,7 @@ body {
 }
 
 .titulo h1 {
-  font-size: 48px;
+   font-size: clamp(24px, 5vw, 48px);
   margin: 0;
   color: var(--primary);
 }
