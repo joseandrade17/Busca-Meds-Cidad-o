@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
 }
 
-/* HEADER AJUSTADO */
+/* HEADER */
 .header {
   display: flex;
   align-items: center;
@@ -28,13 +28,13 @@ body {
 }
 
 .logo-topo {
-   width: clamp(70px, 20vw, 120px);
+  width: clamp(70px, 20vw, 120px);
   height: auto;
   object-fit: contain;
 }
 
 .titulo h1 {
-   font-size: clamp(24px, 5vw, 48px);
+  font-size: clamp(24px, 5vw, 48px);
   margin: 0;
   color: var(--primary);
 }
@@ -52,51 +52,63 @@ input {
   font-size: 16px;
   border-radius: 12px;
   border: none;
-  background: #334155; /* mais claro */
-  color: #fdfdfd; /* texto mais branco */
+  background: #334155;
+  color: #fdfdfd;
   margin-bottom: 20px;
 }
 
-/* placeholder (texto "Ex: dipirona...") */
 input::placeholder {
   color: #cbd5e1;
   opacity: 1;
 }
 
-/* efeito ao clicar */
 input:focus {
   outline: none;
   border: 1px solid #22c55e;
   box-shadow: 0 0 0 2px rgba(34,197,94,0.2);
 }
 
-/* BOTÕES */
+/* BOTÕES (RESPONSIVO PROFISSIONAL) */
 .btn-group {
   display: flex;
-  flex-direction: row; /* 🔥 muda aqui */
   gap: 10px;
   margin-bottom: 25px;
-}
-.btn-group button {
-  flex: 1;
-  min-width: 90px;
+  flex-wrap: wrap;
 }
 
+.btn-group button {
+  flex: 1 1 120px;
+  min-width: 100px;
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/* BOTÃO GERAL */
 button {
-  padding: 16px;
-  border-radius: 12px;
   background: var(--primary);
   color: white;
   border: none;
-  font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 button:hover {
   background: #16a34a;
 }
 
+/* AJUSTE PARA TELAS MUITO PEQUENAS */
+@media (max-width: 500px) {
+  .btn-group button {
+    flex: 1 1 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 /* RESULTADO */
 .resultado {
@@ -118,6 +130,21 @@ button:hover {
   color: #86efac;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* TELEFONE COM EFEITO */
+.ubs-item a[href^="tel:"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.ubs-item a[href^="tel:"]:hover,
+.ubs-item a[href^="tel:"]:active {
+  background: rgba(134, 239, 172, 0.15);
 }
 
 /* AVISO */
@@ -151,18 +178,6 @@ button:hover {
   text-decoration: none;
   color: white;
   font-weight: bold;
-}.ubs-item a[href^="tel:"] {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;          /* espaço entre ícone e número */
-  padding: 4px 8px;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-
-.ubs-item a[href^="tel:"]:hover,
-.ubs-item a[href^="tel:"]:active {
-  background: rgba(134, 239, 172, 0.15); /* fundo verde claro ao tocar/clicar */
 }
 
 .whatsapp { background: #25D366; }
