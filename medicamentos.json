@@ -1,0 +1,1297 @@
+[
+  {
+    "nome": "ACEBROFILINA",
+    "dosagem": "5MG/ML",
+    "forma": "SOLUÇÃO ORAL-FRASCO 120ML",
+    "classe": "MUCOLÍTICO/EXPECTORANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ACICLOVIR",
+    "dosagem": "200MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIVIRAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÁCIDO ACETILSALICÍLICO",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIAGREGANTE PLAQUETÁRIO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÁCIDO FÓLICO",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "VITAMINA/ANTIANÊMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÁCIDO MUCOPOLISSACARÍDEO + POLIS SULFÚRICO",
+    "dosagem": "3MG/G",
+    "forma": "GEL-40G",
+    "classe": "ANTI-INFLAMATÓRIO TÓPICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÁCIDO VALPRÓICO",
+    "dosagem": "250MG",
+    "forma": "CÁPSULA",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÁCIDO VALPRÓICO",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÁCIDO VALPRÓICO",
+    "dosagem": "250MG/5ML",
+    "forma": "SOLUÇÃO ORAL-100ML",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ALBENDAZOL",
+    "dosagem": "400MG",
+    "forma": "COMPRIMIDO MASTIGÁVEL",
+    "classe": "ANTI-HELMINTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ALBENDAZOL",
+    "dosagem": "40MG/ML",
+    "forma": "SUSPENSÃO ORAL-10ML",
+    "classe": "ANTI-HELMÍNTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ALENDRONATO DE SÓDIO TRIHIDRATADO",
+    "dosagem": "70MG",
+    "forma": "COMPRIMIDO",
+    "classe": "INIBIDOR DA REABSORÇÃO ÓSSEA",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ALOPURINOL",
+    "dosagem": "300MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIGOTOSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ALPRAZOLAM",
+    "dosagem": "0,5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AMINOFILINA",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "BRONCODILATADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AMIODARONA",
+    "dosagem": "200MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIARRÍTMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AMITRIPTILINA, CLORIDRATO",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO/DOR CRÔNICA",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AMOXICILINA",
+    "dosagem": "500MG",
+    "forma": "CÁPSULA",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AMOXICILINA",
+    "dosagem": "50MG/ML",
+    "forma": "PÓ PARA SUSPENSÃO ORAL-150ML",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AMOXICILINA + CLAVULANATO DE POTÁSSIO",
+    "dosagem": "250MG/5ML+62,5MG/5ML",
+    "forma": "SUSPENSÃO ORAL-75ML",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ANLODIPINO, BESILATO",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ANLODIPINO, BESILATO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ATENOLOL",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "BETABLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AZITROMICINA",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "AZITROMICINA",
+    "dosagem": "200MG/ML",
+    "forma": "PÓ PARA SUSPENSÃO ORAL-22,5ML",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "BECLOMETASONA, DIPROPIONATO",
+    "dosagem": "50MCG/DOSE",
+    "forma": "AEROSSOL NASAL-200 DOSES",
+    "classe": "ANTI-INFLAMATÓRIO ESTEROIDE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "BIPERIDENO, CLORIDRATO",
+    "dosagem": "2MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPARKINSONIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "BROMOPRIDA",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIEMÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "BUPROPIONA, CLORIDRATO",
+    "dosagem": "150MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO/TABAGISMO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CAPTOPRIL",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARBAMΑΖΕΡΙΝΑ",
+    "dosagem": "200MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARBAMΑΖΕΡΙΝΑ",
+    "dosagem": "20MG/ML",
+    "forma": "SUSPENSÃO ORAL-100ML",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARBOCISTEΙΝΑ",
+    "dosagem": "20MG/ML",
+    "forma": "XAROPE-PEDIÁTRICO",
+    "classe": "MUCOLÍTICO/FLUIDIFICANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARBOCISTEÍΝΑ",
+    "dosagem": "50MG/ML",
+    "forma": "XAROPE-ADULTO",
+    "classe": "MUCOLÍTICO/FLUIDIFICANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARBONATO DE CÁLCIO",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "SUPLEMENTO MINERAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARBONATO DE LÍTIO",
+    "dosagem": "300MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ESTABILIZADOR DE HUMOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARVEDILOL",
+    "dosagem": "6,25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO/ALFA E BETA - BLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARVEDILOL",
+    "dosagem": "12,5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO/ALFA E BETA - BLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CARVEDILOL",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO/ALFA E BETA - BLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CEFALEXINA",
+    "dosagem": "500MG",
+    "forma": "CÁPSULA/COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CEFALEXINA",
+    "dosagem": "250MG/ML",
+    "forma": "PÓ PARA SUSPENSÃO ORAL",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CETOCONAZOL",
+    "dosagem": "20MG/G",
+    "forma": "CREME-30G",
+    "classe": "ANTIMICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CETOPROFENO",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-INFLAMATÓRIO NÃO ESTEROIDAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CICLOBENZAPRINA CLORIDRATO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "RELAXANTE MUSCULAR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CILOSTAZOL",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "VASODILATADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CIPROFLOXACINO, CLORIDRATO",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CITALOPRAM, BROMIDRATO",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLARITROMICINA",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLINDAMICINA",
+    "dosagem": "300MG",
+    "forma": "CÁPSULA",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLOMIPRAMINA",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLONAZEPAM",
+    "dosagem": "0,5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLONAZEPAM",
+    "dosagem": "2MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLONAZEPAM",
+    "dosagem": "2,5MG/ML",
+    "forma": "SOLUÇÃO ORAL",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLOPIDOGREL, BISSULFATO",
+    "dosagem": "75MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIAGREGANTE PLAQUETÁRIO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLORETO DE POTÁSSIO",
+    "dosagem": "60MG/ML",
+    "forma": "SOLUÇÃO ORAL-100ML",
+    "classe": "ELETRÓLITO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLORETO DE SÓDIO",
+    "dosagem": "0,9%",
+    "forma": "SOLUÇÃO INJETÁVEL-10ML",
+    "classe": "ELETRÓLITO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "CLORETO DE SÓDIO + CLORETO DE BENZALCÔNIO",
+    "dosagem": "0,1MG/ML+9,0MG/ML",
+    "forma": "SOLUÇÃO NASAL-30ML",
+    "classe": "FLUIDIFICANTE/DESCONGESTIONANTE NASAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLORPROMAZINA, CLORIDRATO",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLORPROMAZINA, CLORIDRATO",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "CLORTALIDONA",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "DIURÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DABIGATRANA, ETEXILATO",
+    "dosagem": "110MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICOAGULANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DABIGATRANA, ETEXILATO",
+    "dosagem": "150MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICOAGULANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DELTAMETRINA",
+    "dosagem": "0,2MG/ML",
+    "forma": "LOÇÃO",
+    "classe": "ESCABICIDA/PEDICULICIDA",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DELTAMETRINA",
+    "dosagem": "0,2MG/ML",
+    "forma": "XAMPU",
+    "classe": "ESCABICIDA/PEDICULICIDA",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DEXAMETASONA",
+    "dosagem": "1MG/G",
+    "forma": "CREME DERMATOLÓGICO-10G",
+    "classe": "ANTI-INFLAMATÓRIO/ANTIPRURIGINOSO CORTICOSTEROIDE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DEXAMETASONA",
+    "dosagem": "0,1MG/ML",
+    "forma": "ELIXIR",
+    "classe": "ANTI-INFLAMATÓRIO/ANTIPRURIGINOSO CORTICOSTEROIDE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DEXCLORFENIRAMINA, MALEATO",
+    "dosagem": "2MG/5ML",
+    "forma": "SOLUÇÃO ORAL-100ML",
+    "classe": "ANTIALÉRGICO/ANTI-HISTAMÍNICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DIAZEPAM",
+    "dosagem": "0,5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DIAZEPAM",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DICLOFENACO DE SÓDIO",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-INFLAMATÓRIO NÃO ESTEROIDAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DIGOXINA",
+    "dosagem": "0,25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "DIGITÁLICO/GLICOSÍDEO CARDÍACO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DILTIAZEM",
+    "dosagem": "60MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO/ANTIANGINOSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DIMENIDRINATO + PIRIDOΧΙΝΑ, CLORIDRATO",
+    "dosagem": "25MG/ML + 5MG/ML",
+    "forma": "SOLUÇÃO ORAL-20ML",
+    "classe": "ANTIEMÉTICO/ANTIVERTIGINOSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DIPIRONA",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANALGÉSICO/ANTIPIRÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DIPIRONA",
+    "dosagem": "500MG/ML",
+    "forma": "SOLUÇÃO ORAL-10ML",
+    "classe": "ANALGÉSICO/ANTIPIRÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DOXAZOSINA, MESILATO",
+    "dosagem": "2MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPERPLASIA PROSTÁTICA BENIGNA / ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "DOXAZOSINA, MESILATO",
+    "dosagem": "4MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPERPLASIA PROSTÁTICA BENIGNA / ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ENALAPRIL, MALEATO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ENALAPRIL, MALEATO",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ESCITALOPRAM, OXALATO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ESCOPOLAMINA, BUTILBROMETO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIESPASMÓDICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ESCOPOLAMINA, BUTILBROMETO + DIPIRONA",
+    "dosagem": "6,67MG/ML+333,4MG/ML",
+    "forma": "SOLUÇÃO ORAL-FRASCO",
+    "classe": "ANTIESPASMÓDICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ESPIRONOLACTONA",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "DIURÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FENITOÍNA",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FENOBARBITAL",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FENOBARBITAL",
+    "dosagem": "40MG/ML",
+    "forma": "SOLUÇÃO ORAL-20ML",
+    "classe": "ANTICONVULSIVANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FINASTERIDA",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPERPLASIA PROSTÁTICA BENIGNA",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FLUCONAZOL",
+    "dosagem": "150MG",
+    "forma": "CÁPSULA",
+    "classe": "ANTIFÚNGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FLUNARIZINΝΑ",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIVERTIGINOSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FLUOXETINA, CLORIDRATO",
+    "dosagem": "20MG",
+    "forma": "CÁPSULA",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "FUROSEMIDA",
+    "dosagem": "40MG",
+    "forma": "COMPRIMIDO",
+    "classe": "DIURÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "GLIBENCLAMIDA",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOGLICEMIANTE ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "GLICLAZIDA",
+    "dosagem": "30MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOGLICEMIANTE ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "GLICLAZIDA",
+    "dosagem": "60MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOGLICEMIANTE ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "HALOPERIDOL",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "HALOPERIDOL",
+    "dosagem": "2MG/ML",
+    "forma": "SOLUÇÃO ORAL-20ML",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "HALOPERIDOL, DECANOATO",
+    "dosagem": "70,52MG/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-1ML",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "HIDROCLOROTIAZIDA",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "DIURÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "HIDRÓXIDO DE ALUMÍNIO",
+    "dosagem": "6,2%",
+    "forma": "SUSPENSÃO ORAL-150ML",
+    "classe": "ANTIÁCIDO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "IBUPROFEΝΟ",
+    "dosagem": "300MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANALGÉSICO/ANTIPIRÉTICO/ANTI-INFLAMATÓRIO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "IBUPROFEΝΟ",
+    "dosagem": "50MG/ML",
+    "forma": "SUSPENSÃO ORAL GOTAS-30ML",
+    "classe": "ANALGÉSICO/ANTIPIRÉTICO/ANTI-INFLAMATÓRIO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "IMIPRAMINA, CLORIDRATO",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "INSULINA HUΜΑΝΑ ΝΡΗ",
+    "dosagem": "100UI/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-FRASCO 10ML",
+    "classe": "ANTIDIABÉTICO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "INSULINA HUΜΑΝΑ ΝΡΗ",
+    "dosagem": "100UI/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-FLEXPEN 3ML",
+    "classe": "ANTIDIABÉTICO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "INSULINA HUMANA REGULAR",
+    "dosagem": "100UI/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-FRASCO 10ML",
+    "classe": "ANTIDIABÉTICO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "INSULINA HUMANA REGULAR",
+    "dosagem": "100UI/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-FLEXPEN 3ML",
+    "classe": "ANTIDIABÉTICO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "ISOSSORBIDA, MONONITRATO",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "VASODILATADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVODOPA + BENSERAZIDA",
+    "dosagem": "100MG+25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPARKINSONIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVODOPA + BENSERAZIDA",
+    "dosagem": "200MG+50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPARKINSONIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVODOPA + CARBIDOPA",
+    "dosagem": "250MG+25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPARKINSONIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOFLOXACINO",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOMEPROMAZINA, MALEATO",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOMEPROMAZINA, MALEATO",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOMEPROMAZINA, CLORIDRATO",
+    "dosagem": "40MG/ML",
+    "forma": "SOLUÇÃO ORAL-20ML",
+    "classe": "ANTIPSICÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVONORGESTREL + ETINILESTRADIOL",
+    "dosagem": "0,15MG+0,03MG",
+    "forma": "COMPRIMIDO",
+    "classe": "CONTRACEPTIVO HORMONAL ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVONORGESTREL",
+    "dosagem": "0,75MG",
+    "forma": "COMPRIMIDO",
+    "classe": "CONTRACEPTIVO DE EMERGÊNCIA",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOTIROXINA",
+    "dosagem": "25MCG",
+    "forma": "COMPRIMIDO",
+    "classe": "HORMÔNIO TIREOIDIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOTIROXIΝΑ",
+    "dosagem": "50MCG",
+    "forma": "COMPRIMIDO",
+    "classe": "HORMÔNIO TIREOIDIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LEVOTIROXIΝΑ",
+    "dosagem": "100MCG",
+    "forma": "COMPRIMIDO",
+    "classe": "HORMÔNIO TIREOIDIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LORATADINA",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIALÉRGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LORATADINA",
+    "dosagem": "1MG/ML",
+    "forma": "XAROPE-100ML",
+    "classe": "ANTIALÉRGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LORAZEPAM",
+    "dosagem": "2MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/BENZODIAZEPÍNICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "LOSARTANA",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "MEDROXIPROGESTERONA, ACETATO",
+    "dosagem": "150MG/ML",
+    "forma": "SUSPENSÃO INJETÁVEL",
+    "classe": "CONTRACEPTIVO HORMONAL INJETÁVEL",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "MELOXICAM",
+    "dosagem": "15MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-INFLAMATÓRIO NÃO ESTEROIDAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METFORMINA, CLORIDRATO",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOGLICEMIANTE ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METFORMINA, CLORIDRATO",
+    "dosagem": "850MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOGLICEMIANTE ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METILDOPA",
+    "dosagem": "250MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METOCLOPRAMIDA, CLORIDRATO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIEMÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ΜΕΤOPROLOL, SUCCINATO",
+    "dosagem": "23,75MG",
+    "forma": "COMPRIMIDO",
+    "classe": "BETABLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ΜΕΤOPROLOL, SUCCINATO",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "BETABLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METOPROLOL, TARTARATO",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "BETABLOQUEADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METRONIDAZOL",
+    "dosagem": "100MG/G",
+    "forma": "GELÉIA VAGINAL",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METRONIDAZOL",
+    "dosagem": "250MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "METRONIDAZOL",
+    "dosagem": "40MG/ML",
+    "forma": "SUSPENSÃO ORAL",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "MICONAZOL, NITRATO",
+    "dosagem": "20MG/G",
+    "forma": "CREME VAGINAL-80G",
+    "classe": "ANTIFÚNGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NALTREXONA, CLORIDRATO",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTAGONISTA OPIÓIDE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NEOMICINA, SULFATO + BACITRACINA ZÍNICA",
+    "dosagem": "5MG/G+250UI/G",
+    "forma": "POMADA DERMATOLÓGICA-10G",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NIFEDIPINO",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO/ANTIANGINOSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NIMESULIDA",
+    "dosagem": "50MG/ML",
+    "forma": "SUSPENSÃO ORAL GOTAS",
+    "classe": "ANTI-INFLAMATÓRIO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NISTATINA",
+    "dosagem": "25000UI/G",
+    "forma": "CREME VAGINAL-60G",
+    "classe": "ANTIFÚNGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NISTATINA",
+    "dosagem": "100.000UI/ML",
+    "forma": "SUSPENSÃO ORAL GOTAS-30ML",
+    "classe": "ANTIFÚNGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NITRAZEPAM",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/BENZODIAZEPÍNICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NITROFURANTΟΙΝΑ",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NORETISTERONA",
+    "dosagem": "0,35MG",
+    "forma": "COMPRIMIDO",
+    "classe": "CONTRACEPTIVO HORMONAL ORAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "NORETISTERONA, ENANTATO + ESTRADIOL, VALERATO",
+    "dosagem": "50MG/ML+5MG/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-1ML",
+    "classe": "CONTRACEPTIVO HORMONAL INJETÁVEL",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "NORTRIPTILINA, CLORIDRATO",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ÓLEO MINERAL PURO",
+    "dosagem": "100%",
+    "forma": "USO ORAL E TÓPICO-100ML",
+    "classe": "LAXANTE E EMOLIENTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ΟΜΕEPRAZOL",
+    "dosagem": "20MG",
+    "forma": "CÁPSULA",
+    "classe": "ANTIULCEROSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PARACETAMOL",
+    "dosagem": "500MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANALGÉSICO/ANTIPIRÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PARACETAMOL",
+    "dosagem": "200MG/ML",
+    "forma": "SOLUÇÃO ORAL GOTAS-15ML",
+    "classe": "ANALGÉSICO/ANTIPIRÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PARACETAMOL + CODEÍNA",
+    "dosagem": "500MG+30MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANALGÉSICO OPIOIDE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PAROXETINA, CLORIDRATO",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PENTOXIFILINA",
+    "dosagem": "400MG",
+    "forma": "COMPRIMIDO",
+    "classe": "VASODILATADOR PERIFÉRICO/HEMORREOLÓGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PERICIAZINA",
+    "dosagem": "40MG/ML",
+    "forma": "SOLUÇÃO ORAL GOTAS-20ML",
+    "classe": "ANTIPSICÓTICO/NEUROLÉPTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "POLIVITAMÍNICO",
+    "dosagem": "VITAMINA A, B1,B2, B3, C E D3",
+    "forma": "SOLUÇÃO ORAL GOTAS-20ML",
+    "classe": "SUPLEMENTO VITAMÍNICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PREDNISOLONA, FOSFATO SÓDICO",
+    "dosagem": "3MG/ML",
+    "forma": "SOLUÇÃO ORAL-60ML",
+    "classe": "ANTI-INFLAMATÓRIO ESTEROIDAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PREDNISONA",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-INFLAMATÓRIO ESTEROIDAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PREDNISONA",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-INFLAMATÓRIO ESTEROIDAL",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PROMETAZINA, CLORIDRATO",
+    "dosagem": "25MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIALÉRGICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PROPATILNITRATO",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "VASODILATADOR/ANTIANGINOSO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "PROPRANOLOL, CLORIDRATO",
+    "dosagem": "40MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTI-HIPERTENSIVO/ANTIANGINOSO/ANTIARRÍTMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SAIS DE REIDRATAÇÃO ORAL",
+    "dosagem": "N/A",
+    "forma": "PÓ PARA SOLUÇÃO",
+    "classe": "SUPLEMENTO ELETROLÍTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SALBUTAMOL, SULFATO",
+    "dosagem": "100MCG",
+    "forma": "AEROSSOL ORAL-200 DOSES",
+    "classe": "BRONCODILATADOR",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SERTRALINA, CLORIDRATO",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SIMETICONA",
+    "dosagem": "75MG/ML",
+    "forma": "EMULSÃO ORAL GOTAS-10ML",
+    "classe": "ANTIFISÉTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SINVASTATINA",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOLIPEMIANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SINVASTATINA",
+    "dosagem": "20MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOLIPEMIANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SINVASTATINA",
+    "dosagem": "40MG",
+    "forma": "COMPRIMIDO",
+    "classe": "HIPOLIPEMIANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SULFAMETOXAZOL + TRIMETOPRIMA",
+    "dosagem": "400MG+80MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SULFAMETOXAZOL + TRIMETOPRIMA",
+    "dosagem": "40MG/ML+8MG/ML",
+    "forma": "SUSPENSÃO ORAL-100ML",
+    "classe": "ANTIMICROBIANO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SULFATO FERROSO",
+    "dosagem": "40MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIANÊMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "SULFATO FERROSO",
+    "dosagem": "25MG/ML",
+    "forma": "SOLUÇÃO ORAL GOTAS-30ML",
+    "classe": "ANTIANÊMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "TIAMINA, CLORIDRATO",
+    "dosagem": "300MG",
+    "forma": "COMPRIMIDO",
+    "classe": "VITAMINA B1",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "TIORIDAZINA",
+    "dosagem": "100MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIPSICÓTICO/NEUROLÉPTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "TRAMADOL",
+    "dosagem": "50MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANALGÉSICO OPIOIDE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "VARFARINA SÓDICA",
+    "dosagem": "5MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTICOAGULANTE",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "VENLAFAXINA",
+    "dosagem": "75MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIDEPRESSIVO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "VERAPAMIL",
+    "dosagem": "80MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANTIARRÍTMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "VITAMINA A + D + ÓXIDO DE ZINCO",
+    "dosagem": "5000UI + 900UI + 150MG/G",
+    "forma": "POMADA",
+    "classe": "PROTETOR DÉRMICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "VITAMINAS DO COMPLEXO B",
+    "dosagem": "N/A",
+    "forma": "COMPRIMIDO REVESTIDO",
+    "classe": "SUPLEMENTO DE VITAMINAS B",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ZOLPIDEM",
+    "dosagem": "10MG",
+    "forma": "COMPRIMIDO",
+    "classe": "ANSIOLÍTICO/HIPNÓTICO",
+    "tipo": "UBS"
+  },
+  {
+    "nome": "ACETILCISTEÍNA",
+    "dosagem": "100MG/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-AMPOLA 3ML",
+    "classe": "MUCOLÍTICO",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "CETOPROFENO",
+    "dosagem": "100MG/2ML",
+    "forma": "SOLUÇÃO INJETÁVEL-INTRAMUSCULAR",
+    "classe": "ANTI-INFLAMATÓRIO NÃO ESTEROIDAL",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "DEXAMETASONA",
+    "dosagem": "4MG/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-2,5ML",
+    "classe": "ANTI-INFLAMATÓRIO/ANTIPRURIGINOSO CORTICOSTEROIDE",
+    "tipo": "HOSPITAL"
+  },
+  {
+    "nome": "DICLOFENACO DE SÓDIO",
+    "dosagem": "25MG/ML",
+    "forma": "SOLUÇÃO INJETÁVEL-3ML",
+    "classe": "ANTI-INFLAMATÓRIO NÃO ESTEROIDAL",
+    "tipo": "HOSPITAL"
+  }
+]

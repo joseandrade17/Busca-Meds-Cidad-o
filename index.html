@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Medicamentos SUS - Caieiras</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HEADER CORRIGIDO -->
+  <div class="header">
+    <img src="logo.png" class="logo-topo">
+
+    <div class="titulo">
+      <h1>Busca Meds Cidadão</h1>
+      <p>Localizador de Medicamentos na rede Pública</p>
+    </div>
+  </div>
+
+  <!-- BUSCA -->
+  <input type="text" id="busca"
+    placeholder="Ex: dipirona, losartana, paracetamol 500mg..."
+     oninput="buscar()">
+
+  <!-- BOTÕES -->
+  <div class="btn-group">
+    <button onclick="buscar()">🔍 Buscar</button>
+    <button onclick="mostrarDocumentos()">📄 Documentos</button>
+    <button onclick="mostrarUBS()">📍 UBS</button>
+  </div>
+
+  <!-- RESULTADO -->
+  <div id="resultado" class="resultado"></div>
+
+  <!-- AVISO -->
+  <div class="aviso">
+    ⚠️ Lista oficial do SUS de Caieiras<br>
+    Pode variar conforme estoque da UBS
+  </div>
+
+</div>
+
+  <!-- Seção de compartilhar -->
+  <div class="compartilhar">
+    <p><strong></strong></p>
+ <p>💬 <strong>Ajude quem precisa!</strong> Compartilhe esta página com amigos, familiares ou grupos que buscam remédios no SUS em Caieiras.</p>
+ <p>📌 <strong>Encontre informações sobre:</strong> medicamentos, dosagens, forma de uso, documentos necessários e todas as UBS com endereço e telefone para contato.</p> 
+ <p>⚠️ <strong>Lembre-se:</strong> a disponibilidade pode variar conforme estoque da UBS.</p> 
+    <a href="https://api.whatsapp.com/send?text=Olha%20essa%20p%C3%A1gina%20muito%20%C3%BAtil%20para%20buscar%20medicamentos%20SUS%20em%20Caieiras!%0ABusca%20r%C3%A1pida%2C%20documentos%20necess%C3%A1rios%20e%20todas%20as%20UBS%20com%20mapas%3A%20" + encodeURIComponent(window.location.href) + "%0ACompartilhe%20com%20quem%20precisa!%20💊📍"
+       target="_blank" rel="noopener noreferrer" class="btn-share whatsapp">
+      WhatsApp 📲
+    </a>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href)
+       target="_blank" rel="noopener noreferrer" class="btn-share facebook">
+      Facebook 👍
+    </a>
+
+    <button onclick="compartilharPagina()" class="btn-share geral">
+      Compartilhar página 🌐
+    </button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
