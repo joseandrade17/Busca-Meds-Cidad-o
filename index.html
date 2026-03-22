@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Medicamentos SUS - Caieiras</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -13,15 +13,15 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-ZDP2BTL6MT');
   </script>
 </head>
+
 <body>
 
 <div class="container">
 
-  <!-- HEADER CORRIGIDO -->
+  <!-- HEADER -->
   <div class="header">
     <img src="logo.png" class="logo-topo">
 
@@ -31,48 +31,68 @@
     </div>
   </div>
 
-  <!-- BUSCA -->
-  <input type="text" id="busca"
-    placeholder="Ex: dipirona, losartana, paracetamol 500mg..."
-     oninput="buscar()">
+  <!-- LAYOUT EM DUAS COLUNAS -->
+  <div class="layout">
 
-  <!-- BOTÕES -->
-  <div class="btn-group">
-    <button onclick="buscar()">🔍 Buscar</button>
-    <button onclick="mostrarDocumentos()">📄 Documentos</button>
-    <button onclick="mostrarUBS()">📍 UBS</button>
+    <!-- COLUNA ESQUERDA -->
+    <div>
+
+      <!-- BUSCA -->
+      <div class="section">
+        <input type="text" id="busca"
+          placeholder="Ex: dipirona, losartana, paracetamol 500mg..."
+          oninput="buscar()">
+      </div>
+
+      <!-- BOTÕES -->
+      <div class="section btn-group">
+        <button onclick="buscar(); fecharTeclado()">🔍 Buscar</button>
+        <button onclick="mostrarDocumentos()">📄 Documentos</button>
+        <button onclick="mostrarUBS()">📍 UBS</button>
+      </div>
+
+      <!-- RESULTADO -->
+      <div id="resultado" class="resultado"></div>
+
+      <!-- AVISO -->
+      <div class="aviso">
+        ⚠️ Lista oficial do SUS de Caieiras<br>
+        Pode variar conforme estoque da UBS
+      </div>
+
+    </div>
+
+    <!-- COLUNA DIREITA -->
+    <div>
+
+      <!-- COMPARTILHAR -->
+      <div class="compartilhar">
+        <p>💬 <strong>Ajude quem precisa!</strong> Compartilhe esta página com amigos, familiares ou grupos que buscam remédios no SUS em Caieiras.</p>
+
+        <p>📌 <strong>Encontre informações sobre:</strong> medicamentos, dosagens, forma de uso, documentos necessários e todas as UBS com endereço e telefone para contato.</p> 
+
+        <p>⚠️ <strong>Lembre-se:</strong> a disponibilidade pode variar conforme estoque da UBS.</p> 
+        
+        <button onclick="compartilharPagina()" class="btn-share geral">
+          Compartilhar página 🌐
+        </button>
+      </div>
+
+    </div>
+
   </div>
 
-  <!-- RESULTADO -->
-  <div id="resultado" class="resultado"></div>
-
-  <!-- AVISO -->
-  <div class="aviso">
-    ⚠️ Lista oficial do SUS de Caieiras<br>
-    Pode variar conforme estoque da UBS
-  </div>
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <p>
+      Este site foi desenvolvido por <strong>José E. A. Santana</strong> de forma independente,
+      sem vínculo com prefeituras ou órgãos públicos, com o objetivo de facilitar a busca por
+      medicamentos para a população.
+    </p>
+  </footer>
 
 </div>
 
-  <!-- Seção de compartilhar -->
-  <div class="compartilhar">
-    <p><strong></strong></p>
- <p>💬 <strong>Ajude quem precisa!</strong> Compartilhe esta página com amigos, familiares ou grupos que buscam remédios no SUS em Caieiras.</p>
- <p>📌 <strong>Encontre informações sobre:</strong> medicamentos, dosagens, forma de uso, documentos necessários e todas as UBS com endereço e telefone para contato.</p> 
- <p>⚠️ <strong>Lembre-se:</strong> a disponibilidade pode variar conforme estoque da UBS.</p> 
-   
-    <button onclick="compartilharPagina()" class="btn-share geral">
-      Compartilhar página 🌐
-    </button>
-  </div>
-<!-- RODAPÉ -->
-<footer class="rodape">
-  <p>
-    Este site foi desenvolvido por <strong>José E. A. Santana</strong> de forma independente,
-    sem vínculo com prefeituras ou órgãos públicos, com o objetivo de facilitar a busca por
-    medicamentos para a população.
-  </p>
-</footer>
 <script src="script.js"></script>
 </body>
 </html>
