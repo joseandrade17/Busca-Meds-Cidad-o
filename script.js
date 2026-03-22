@@ -3,15 +3,18 @@ let medicamentos = [];
 
 fetch("medicamentos.json")
   .then(res => res.json())
-  .then(data => medicamentos = data)
+  .then(data => {
+    medicamentos = data;
+    console.log("✅ JSON carregado:", medicamentos.length);
+  })
   .catch(() => {
     document.getElementById("resultado").innerHTML =
-      "<p style='color:#f87171; text-align:center;'>Erro ao carregar medicamentos. Verifique sua conexão ou o arquivo JSON.</p>";
+      "<p style='color:#f87171; text-align:center;'>Erro ao carregar medicamentos.</p>";
   });
 
-// Função escapeHtml corrigida
+// Escape HTML
 function escapeHtml(unsafe) {
-  return unsafe
+  return String(unsafe)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -19,56 +22,97 @@ function escapeHtml(unsafe) {
     .replace(/'/g, "&#039;");
 }
 
-// Normalizar texto para busca
-function normalizarTexto(texto) {
-  return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+// 🔥 CORREÇÃO PRINCIPAL (mapa de letras bugadas)
+function corrigirTexto(texto) {
+  return String(texto)
+    .replace(/Α/g, "A")
+    .replace(/Β/g, "B")
+    .replace(/Ε/g, "E")
+    .replace(/Ζ/g, "Z")
+    .replace(/Η/g, "H")
+    .replace(/Ι/g, "I")
+    .replace(/Κ/g, "K")
+    .replace(/Μ/g, "M")
+    .replace(/Ν/g, "N")
+    .replace(/Ο/g, "O") // 🔥 ESSA É A DO OMEPRAZOL
+    .replace(/Ρ/g, "P")
+    .replace(/Τ/g, "T")
+    .replace(/Χ/g, "X")
+    .replace(/Υ/g, "Y");
 }
 
-// Busca de medicamento
+// Normalizar texto
+function normalizarTexto(texto) {
+  return corrigirTexto(texto)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // remove acento
+    .replace(/[^a-zA-Z0-9\s]/g, "") // remove lixo
+    .toLowerCase()
+    .trim();
+}
+
+// Busca
 function buscar() {
   const input = document.getElementById("busca");
-  let busca = input.value.trim();
   const resultado = document.getElementById("resultado");
+  let busca = input.value.trim();
 
   resultado.innerHTML = "";
 
+  if (medicamentos.length === 0) {
+    resultado.innerHTML = "⏳ Carregando medicamentos...";
+    return;
+  }
+
   if (busca === "") {
-    resultado.innerHTML = "<p style='color:#fbbf24; text-align:center;'>⚠️ Digite o nome do medicamento.</p>";
+    resultado.innerHTML =
+      "<p style='color:#fbbf24; text-align:center;'>⚠️ Digite o nome do medicamento.</p>";
     return;
   }
 
   const buscaNormalizada = normalizarTexto(busca);
 
-  let filtrados = medicamentos.filter(med =>
-    normalizarTexto(med.nome).includes(buscaNormalizada) ||
-    (med.dosagem && normalizarTexto(med.dosagem).includes(buscaNormalizada)) ||
-    (med.forma && normalizarTexto(med.forma).includes(buscaNormalizada)) ||
-    (med.classe && normalizarTexto(med.classe).includes(buscaNormalizada))
+  let filtrados = medicamentos
+    .filter(med => (med.tipo || "").toUpperCase() === "UBS")
+    .filter(med => {
+      const nome = normalizarTexto(med.nome || "");
+      const dosagem = normalizarTexto(med.dosagem || "");
+      const forma = normalizarTexto(med.forma || "");
+      const classe = normalizarTexto(med.classe || "");
+
+      return (
+        nome.includes(buscaNormalizada) ||
+        dosagem.includes(buscaNormalizada) ||
+        forma.includes(buscaNormalizada) ||
+        classe.includes(buscaNormalizada)
+      );
+    });
+
+  filtrados.sort((a, b) =>
+    (a.nome || "").localeCompare(b.nome || "")
   );
 
   if (filtrados.length === 0) {
-    resultado.innerHTML = `<b>❌ Nenhum medicamento encontrado.</b><br><br>Verifique a grafia ou procure diretamente na UBS.`;
+    resultado.innerHTML =
+      "<b>❌ Nenhum medicamento encontrado.</b><br><br>Verifique a grafia.";
     return;
   }
 
-  let html = `<h2>✅ Resultado (${filtrados.length} encontrado${filtrados.length !== 1 ? 's' : ''})</h2><br>`;
-  html += `<p style="text-align:center; color:#94a3b8; font-size:14px; margin-bottom:15px;">
-             Lista baseada em dados até 2025 – confirme disponibilidade na UBS (março 2026)
-           </p>`;
+  let html = `<h2>✅ Resultado (${filtrados.length})</h2>`;
 
   filtrados.forEach(med => {
     html += `
       <div class="card">
         <b>Nome:</b> ${escapeHtml(med.nome)}<br>
-        <b>Dosagem:</b> ${escapeHtml(med.dosagem || "Não informado")}<br>
-        <b>Forma:</b> ${escapeHtml(med.forma || "Não informado")}<br>
-        <b>Classe:</b> ${escapeHtml(med.classe || "Não informado")}
-      </div>`;
+        <b>Dosagem:</b> ${escapeHtml(med.dosagem)}<br>
+        <b>Forma:</b> ${escapeHtml(med.forma)}<br>
+        <b>Classe:</b> ${escapeHtml(med.classe)}
+      </div>
+    `;
   });
 
   resultado.innerHTML = html;
 }
-
 // Documentos necessários
 function mostrarDocumentos() {
   const resultado = document.getElementById("resultado");
