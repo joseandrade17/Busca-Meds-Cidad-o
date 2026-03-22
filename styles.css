@@ -5,26 +5,38 @@
   --light-card: #334155;
 }
 
+/* BASE */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: var(--dark);
   color: white;
   margin: 0;
   padding: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 /* CONTAINER CENTRAL */
 .container {
+  width: 100%;
   max-width: 720px;
   margin: 0 auto;
+  padding: 10px;
+}
+
+/* PADRÃO DE ESPAÇAMENTO */
+.section {
+  margin-bottom: 20px;
 }
 
 /* HEADER */
 .header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   margin-bottom: 25px;
+  text-align: left;
 }
 
 .logo-topo {
@@ -34,13 +46,13 @@ body {
 }
 
 .titulo h1 {
-  font-size: clamp(24px, 5vw, 48px);
+  font-size: clamp(24px, 5vw, 40px);
   margin: 0;
   color: var(--primary);
 }
 
 .titulo p {
-  font-size: clamp(14px, 3.5vw, 23px);
+  font-size: clamp(14px, 3.5vw, 20px);
   margin: 0;
   color: #e3e3e4;
 }
@@ -48,37 +60,36 @@ body {
 /* INPUT */
 input {
   width: 100%;
-  padding: 16px;
+  padding: 14px 16px;
   font-size: 16px;
   border-radius: 12px;
   border: none;
   background: #334155;
   color: #fdfdfd;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
 
 input::placeholder {
   color: #cbd5e1;
-  opacity: 1;
 }
 
 input:focus {
   outline: none;
-  border: 1px solid #22c55e;
-  box-shadow: 0 0 0 2px rgba(34,197,94,0.2);
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 0 4px rgba(34,197,94,0.2);
 }
 
-/* BOTÕES (RESPONSIVO PROFISSIONAL) */
+/* BOTÕES */
 .btn-group {
   display: flex;
   gap: 10px;
-  margin-bottom: 25px;
   flex-wrap: wrap;
 }
 
 .btn-group button {
   flex: 1 1 120px;
-  min-width: 100px;
+  min-width: 120px;
   padding: 14px;
   font-size: 15px;
   border-radius: 10px;
@@ -91,23 +102,16 @@ button {
   border: none;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.2s;
+  transition: all 0.2s ease;
 }
 
 button:hover {
   background: #16a34a;
+  transform: translateY(-2px);
 }
 
-/* AJUSTE PARA TELAS MUITO PEQUENAS */
-@media (max-width: 500px) {
-  .btn-group button {
-    flex: 1 1 100%;
-  }
-
-  .header {
-    flex-direction: column;
-    text-align: center;
-  }
+button:active {
+  transform: scale(0.98);
 }
 
 /* RESULTADO */
@@ -116,23 +120,27 @@ button:hover {
   background: var(--card-bg);
   padding: 20px;
   border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-.card, .ubs-item, .documentos .item {
+/* CARDS */
+.card,
+.ubs-item,
+.documentos .item {
   background: var(--light-card);
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* UBS */
+/* UBS LINKS */
 .ubs-item a {
   color: #86efac;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* TELEFONE COM EFEITO */
 .ubs-item a[href^="tel:"] {
   display: inline-flex;
   align-items: center;
@@ -142,51 +150,78 @@ button:hover {
   transition: background 0.2s;
 }
 
-.ubs-item a[href^="tel:"]:hover,
-.ubs-item a[href^="tel:"]:active {
+.ubs-item a[href^="tel:"]:hover {
   background: rgba(134, 239, 172, 0.15);
 }
 
 /* AVISO */
 .aviso {
-  margin: 25px auto;
+  margin: 20px 0;
   background: #facc15;
   color: black;
   padding: 16px;
   border-radius: 10px;
   text-align: center;
   font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* COMPARTILHAR */
+/* COMPARTILHAR (AJUSTADO 🔥) */
 .compartilhar {
   background: var(--light-card);
   padding: 20px;
   border-radius: 12px;
-  text-align: center;
+  text-align: left; /* ✅ corrigido */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 .compartilhar p {
-  color: #86efac;
+  color: #ecfcf2;
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 1.5;
+  border-left: 3px solid var(--primary);
+  padding-left: 10px;
 }
 
+/* BOTÃO COMPARTILHAR */
 .btn-share {
-  display: inline-block;
+  display: block;
+  margin: 15px auto 0;
   padding: 10px 18px;
-  margin: 5px;
   border-radius: 20px;
   text-decoration: none;
   color: white;
   font-weight: bold;
+  transition: 0.2s;
 }
-.rodape {
-  text-align: center;
-  font-size: 12px;
-  color: #a0aab9;
-  margin-top: 20px;
-  padding: 10px 0;
+
+.btn-share:hover {
+  transform: scale(1.05);
 }
 
 .whatsapp { background: #25D366; }
 .facebook { background: #1877F2; }
 .geral { background: var(--primary); }
+
+/* RODAPÉ */
+.rodape {
+  text-align: center;
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 30px;
+  padding: 15px 0;
+  border-top: 1px solid #1e293b;
+}
+
+/* RESPONSIVO */
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn-group button {
+    flex: 1 1 100%;
+  }
+}
